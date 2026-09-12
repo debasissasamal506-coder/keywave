@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer Wave Glow -->
+    <path
+        android:pathData="M24,40 C24,31.16 31.16,24 40,24 L68,24 C76.84,24 84,31.16 84,40 L84,68 C84,76.84 76.84,84 68,84 L40,84 C31.16,84 24,76.84 24,68 Z"
+        android:strokeWidth="1.5">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="24"
+                android:startY="24"
+                android:endX="84"
+                android:endY="84"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#00F5D4" />
+                <item android:offset="0.5" android:color="#7B2CBF" />
+                <item android:offset="1.0" android:color="#FF007F" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Key Body (Glass Card) -->
+    <path
+        android:pathData="M29,42 C29,34.82 34.82,29 42,29 L66,29 C73.18,29 79,34.82 79,42 L79,66 C79,73.18 73.18,79 66,79 L42,79 C34.82,79 29,73.18 29,66 Z"
+        android:fillColor="#E6151728"
+        android:strokeWidth="1">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="29"
+                android:startY="29"
+                android:endX="79"
+                android:endY="79"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#8000F5D4" />
+                <item android:offset="1.0" android:color="#80FF007F" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Keycap Wave Crest Icon -->
+    <path
+        android:pathData="M37,56 C40,46 45,46 48,54 C51,62 56,62 59,52 C62,44 67,46 71,56"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="37"
+                android:startY="54"
+                android:endX="71"
+                android:endY="54"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#00F5D4" />
+                <item android:offset="0.5" android:color="#9D4EDD" />
+                <item android:offset="1.0" android:color="#FF007F" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Keycap K Letterform Accent -->
+    <path
+        android:pathData="M49,37 L49,47 M49,42 L55,37 M49,42 L55,47"
+        android:strokeWidth="2"
+        android:strokeColor="#EEF2F6"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+</vector>

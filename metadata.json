@@ -1,0 +1,6 @@
+{
+  "name": "KeyWave",
+  "description": "Premium Android keyboard with RGB lighting effects, wave animations, customizable themes, and ultra-responsive typing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
